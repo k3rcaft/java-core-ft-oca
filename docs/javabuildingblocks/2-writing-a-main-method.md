@@ -3,7 +3,7 @@
 public class Animal {
 
   public static void main(String[] args) {
-
+    System.out.println(args[0]);
   }
 }
 ```
@@ -21,4 +21,18 @@ We can pass values in the args when run the program.
 ```bash
 $ javac Zoo.java
 $ java Zoo "San Diego" Zoo
+```
+
+If we use the args and not pass value when run the program. The JVM will throw java.lang.ArrayIndexOutOfBoundsException.
+```java
+public class Animal {
+
+  public static void main(String[] args) {
+    System.out.println(args[0]);
+  }
+}
+```
+```bash
+$ javac Animal.java
+$ java Animal
 ```

@@ -36,3 +36,4 @@ public class Animal {
 $ javac Animal.java
 $ java Animal
 ```
+-> Will throw exception.

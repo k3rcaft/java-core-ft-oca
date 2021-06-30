@@ -10,10 +10,10 @@ public class Animal {
 
 A Java program begins execution with its main() method by JVM (Java Virtual
 Machine).
-* public -> access modifier can call this method.
-* static -> can call the method by class name scope directly -> Animal.main().
-* void -> the method don't return anything.
-* String[] args -> input of method is accepted by one String array. Therefore, we can write String[] args, String args[] or String...
+* public :point_right: access modifier can call this method.
+* static :point_right: can call the method by class name scope directly -> Animal.main().
+* void :point_right: the method don't return anything.
+* String[] args :point_right: input of method is accepted by one String array. Therefore, we can write String[] args, String args[] or String...
   args.
 
 We can pass values in the args when run the program.
@@ -36,4 +36,4 @@ public class Animal {
 $ javac Animal.java
 $ java Animal
 ```
--> Will throw exception.
+:point_right: Will throw exception.

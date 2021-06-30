@@ -58,8 +58,54 @@ public class ImportExample {
 }
 ```
 
-(1) :point_right: java lang package is automatically considered to be imported. <br>
+(1) :point_right: Java Lang package is automatically considered to be imported. <br>
 (2) (3) :point_right: import same packages.
 
 In addition, we don't need imports a class that is in the same package as the
 class importing it.
+
+### Naming Conflicts
+
+```java
+import java.util.*; // (1)
+import java.sql.*; // (2)
+
+public class ImportExample {
+    
+}
+```
+(1) (2) :point_right: When the class is found in multiple packages, Java gives you the compiler error.
+
+Solution for this:
+```java
+import java.util.Date; // (1)
+import java.sql.*; // (2)
+
+public class ImportExample {
+    
+}
+```
+
+(1) :point_right: When compile Java will take Date from java.util package and ignore Date in wildcard (2).
+
+If you wanna use 2 classes in your class
+
+```java
+import java.util.Date; // (1)
+import java.sql.Date; // (2)
+
+public class ImportExample {
+    
+}
+```
+(1) (2) :point_right: error compile.
+
+Solution for this:
+```java
+public class ImportExample {
+    java.sql.Date sqlDate; // (1)
+    java.util.Date utilDate; // (2)
+}
+```
+
+(1) (2) :point_right: use fully qualified class name;

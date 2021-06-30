@@ -40,7 +40,7 @@ public class ImportExample {
     }
 }
 ```
-(1) => don't do this.
+(1) :point_right: don't do this.
 
 ### Redundant Imports
 
@@ -57,8 +57,8 @@ public class ImportExample {
 }
 ```
 
-(1) => java lang package is automatically considered to be imported. </br>
-(2) (3) => import same packages.
+(1) :point_right: java lang package is automatically considered to be imported. </br>
+(2) (3) :point_right: import same packages.
 
 In addition, we don't need imports a class that is in the same package as the
 class importing it.

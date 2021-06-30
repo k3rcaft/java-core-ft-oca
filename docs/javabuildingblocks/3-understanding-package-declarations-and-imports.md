@@ -88,7 +88,7 @@ public class ImportExample {
 
 (1) :point_right: When compile Java will take Date from java.util package and ignore Date in wildcard (2).
 
-If you wanna use 2 classes in your class
+If you wanna use 2 classes in your class.
 
 ```java
 import java.util.Date; // (1)

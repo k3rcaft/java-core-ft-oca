@@ -3,7 +3,7 @@
 When use class from package, we need import address of the class (package).
 
 ```java
-import java.util.Random; // import tells us where to find Random
+import java.util.Random; // (1)
 
 public class ImportExample {
     public static void main(String[] args) {
@@ -12,8 +12,9 @@ public class ImportExample {
     }
 }
 ```
-
-import doesn't import child packages, fields, or methods; it imports only classes.
+(1) <br> 
+:point_right: import tells us where to find Random. <br>
+:point_right: import doesn't import child packages, fields, or methods; it imports only classes.
 
 ### Wildcards
 
@@ -57,7 +58,7 @@ public class ImportExample {
 }
 ```
 
-(1) :point_right: java lang package is automatically considered to be imported. </br>
+(1) :point_right: java lang package is automatically considered to be imported. <br>
 (2) (3) :point_right: import same packages.
 
 In addition, we don't need imports a class that is in the same package as the

@@ -12,4 +12,5 @@
     System.out.println(1 + 2 + "c"); // 3c
 ```
 
-![image info](../../resources/images/string-concat.svg)
+[comment]: <> (![image info]&#40;../../resources/images/string-concat.svg&#41;)
+![Alt text](../../resources/images/string-concat.svg)

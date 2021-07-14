@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks.declaring_and_initializing_variables_9;
+package com.thanhquangvo.java_building_blocks.declaring_and_initializing_variables_9;
 
 public class DeclaringMultipleVariables {
 

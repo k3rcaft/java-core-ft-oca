@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks.referencees_vs_primitives_8;
+package com.thanhquangvo.java_building_blocks.referencees_vs_primitives_8;
 
     // primitive types that hold their values in the memory
 public class PrimitiveTypes {

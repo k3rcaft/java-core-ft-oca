@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks.referencees_vs_primitives_8;
+package com.thanhquangvo.java_building_blocks.referencees_vs_primitives_8;
 
 // a reference type refers to an object (an instance of a class).
 // a reference “points” to an object by storing the memory address

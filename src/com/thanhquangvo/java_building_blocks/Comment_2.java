@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks;
+package com.thanhquangvo.java_building_blocks;
 
 /*
 multiple comment line

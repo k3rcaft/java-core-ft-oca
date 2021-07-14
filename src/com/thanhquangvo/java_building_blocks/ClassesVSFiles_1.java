@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks;
+package com.thanhquangvo.java_building_blocks;
 
 // Java don't require 1 public class in file
 // 1 file have multiple classes

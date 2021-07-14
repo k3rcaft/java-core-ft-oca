@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks;
+package com.thanhquangvo.java_building_blocks;
 
 //object is an instance of a class
 public class CreatingObject_7 {

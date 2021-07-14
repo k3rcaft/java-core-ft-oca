@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks;
+package com.thanhquangvo.java_building_blocks;
 
 //it imports only classes to use it
 import java.util.Random;

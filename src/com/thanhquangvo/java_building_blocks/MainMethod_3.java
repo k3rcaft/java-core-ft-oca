@@ -1,4 +1,4 @@
-package com.thanhquangvo.javabuildingblocks;
+package com.thanhquangvo.java_building_blocks;
 
 public class MainMethod_3 {
     // context: run in default package not package declare

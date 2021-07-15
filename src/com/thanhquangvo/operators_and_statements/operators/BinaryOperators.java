@@ -1,4 +1,4 @@
-package com.thanhquangvo.operators_and_statements.binary_arithmetic_operators;
+package com.thanhquangvo.operators_and_statements.operators;
 
 // include + - * / %
 public class BinaryOperators {
@@ -85,6 +85,8 @@ public class BinaryOperators {
         String a = "abc";
         String b = "abc";
         System.out.println(a == b);
+
+        System.out.println(3 == 3.0);
 
         Object o = new Object();
         Object o1 = o;

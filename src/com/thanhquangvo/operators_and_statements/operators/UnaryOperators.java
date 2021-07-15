@@ -1,4 +1,4 @@
-package com.thanhquangvo.operators_and_statements.binary_arithmetic_operators;
+package com.thanhquangvo.operators_and_statements.operators;
 
 // include + - ++ -- !
 public class UnaryOperators {

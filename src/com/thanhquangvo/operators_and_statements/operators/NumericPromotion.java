@@ -1,4 +1,4 @@
-package com.thanhquangvo.operators_and_statements.binary_arithmetic_operators;
+package com.thanhquangvo.operators_and_statements.operators;
 
 //Numeric Promotion Rules
 //        1. If two values have different data types, Java will automatically promote one of the values to the larger of the two data types.

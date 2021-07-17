@@ -1,4 +1,4 @@
-package com.thanhquangvo.class_design;
+package com.thanhquangvo.class_design.inherit_series;
 
 import java.io.EOFException;
 

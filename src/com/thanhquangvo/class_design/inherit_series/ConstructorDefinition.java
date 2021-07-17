@@ -1,4 +1,4 @@
-package com.thanhquangvo.class_design;
+package com.thanhquangvo.class_design.inherit_series;
 
 //        1. The first statement of every constructor is a call to another constructor within the class
 //        using this(), or a call to a constructor in the direct parent class using super().
